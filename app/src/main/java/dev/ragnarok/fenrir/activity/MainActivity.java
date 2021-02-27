@@ -436,7 +436,7 @@ public class MainActivity extends AppCompatActivity implements AdditionalNavigat
             mToolbar.setNavigationOnClickListener(v -> onBackPressed());
         } else {
             if (!isFragmentWithoutNavigation()) {
-                mToolbar.setNavigationIcon(R.drawable.client_round);
+                mToolbar.setNavigationIcon(R.drawable.ic_horisontal_dots);
                 mToolbar.setNavigationOnClickListener(v -> {
 
                     ModalBottomSheetDialogFragment.Builder menus = new ModalBottomSheetDialogFragment.Builder();

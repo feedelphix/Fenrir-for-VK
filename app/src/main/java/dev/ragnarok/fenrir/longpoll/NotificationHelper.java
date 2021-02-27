@@ -243,7 +243,7 @@ public class NotificationHelper {
         }
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, channelId)
-                .setSmallIcon(R.drawable.client_round)
+                .setSmallIcon(R.drawable.email)
                 .setLargeIcon(avatar)
                 .setContentText(text)
                 .setStyle(msgs)
@@ -368,7 +368,7 @@ public class NotificationHelper {
             Title += ", Type: " + Type;
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, AppNotificationChannels.CHAT_MESSAGE_CHANNEL_ID)
-                .setSmallIcon(R.drawable.client_round)
+                .setSmallIcon(R.drawable.email)
                 .setContentText(text)
                 .setContentTitle(Title)
                 .setAutoCancel(true);
