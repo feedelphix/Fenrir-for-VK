@@ -287,7 +287,7 @@
     </string-array>
 
     <string name="select_image_size_summary">Medium recommended</string>
-    <string name="select_image_size_title">Send image size</string>
+    <string name="select_image_size_title">Set image size</string>
     <string-array name="array_image_sizes_names">
         <item>Small (800 px)</item>
         <item>Average (1200 px)</item>
@@ -1508,7 +1508,7 @@
     <string name="notif_sticker">Sticker</string>
     <string name="notif_voice">A voice message</string>
     <string name="developer_mode">Developer mode</string>
-    <string name="dont_write">Don\'t send writing status</string>
+    <string name="dont_write">Don\'t send input status</string>
     <string name="over_ten_attach">Send more than 10 attachments</string>
     <string name="open_photo">Open photo</string>
     <string name="open_avatar">Open avatar</string>

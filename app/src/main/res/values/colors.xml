@@ -7,6 +7,7 @@
     <color name="neutral">#BEBEBE</color>
     <color name="default_message_status">#36638D</color>
     <color name="ic_launcher_background">#000000</color>
+    <color name="ic_vk_launcher_background">#2772F6</color>
 
     <!--Фон листа с главным меню-->
 

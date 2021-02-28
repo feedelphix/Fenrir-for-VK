@@ -6,7 +6,7 @@
     <item
         android:width="@dimen/pref_image_size"
         android:height="@dimen/pref_image_size"
-        android:drawable="@drawable/splash"
+        android:drawable="@drawable/logo_vk"
         android:gravity="center" />
 
 </layer-list>
