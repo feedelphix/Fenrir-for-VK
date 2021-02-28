@@ -124,7 +124,7 @@ public class KeepLongpollService extends Service {
 
         builder.setContentTitle(getString(R.string.keep_longpoll_notification_title))
                 .setContentText(getString(R.string.may_down_charge))
-                .setSmallIcon(R.drawable.client_round)
+                .setSmallIcon(R.drawable.low_battery)
                 .addAction(action_stop)
                 .setColor(Color.parseColor("#dd0000"))
                 .setOngoing(true)

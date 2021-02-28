@@ -117,7 +117,7 @@ public class WallPostFCMMessage {
                     }
 
                     NotificationCompat.Builder builder = new NotificationCompat.Builder(app, AppNotificationChannels.NEW_POST_CHANNEL_ID)
-                            .setSmallIcon(R.drawable.client_round)
+                            .setSmallIcon(R.drawable.pencil)
                             .setContentTitle(title)
                             .setContentText(body)
                             .setLargeIcon(info.getAvatar())

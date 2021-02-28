@@ -77,7 +77,7 @@ public class NewPostPushMessage {
         }
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, AppNotificationChannels.NEW_POST_CHANNEL_ID)
-                .setSmallIcon(R.drawable.client_round)
+                .setSmallIcon(R.drawable.channel)
                 .setContentTitle(title)
                 .setContentText(body)
                 .setColor(Utils.getThemeColor(false))
