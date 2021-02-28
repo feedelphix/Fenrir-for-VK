@@ -121,7 +121,7 @@ class CustomToast private constructor(context: Context?, Timage: Bitmap?) {
         if (image != null)
             iconIV.setImageBitmap(image)
         else
-            iconIV.setImageResource(R.mipmap.ic_launcher_round)
+            iconIV.setImageResource(R.drawable.about_writed)
         toast.duration = duration
         return toast
     }

@@ -1143,7 +1143,7 @@
     <string name="button_postpone">Postpone</string>
     <string name="message_obtaining_owner_information">Getting information about the owner</string>
     <string name="title_suggest_news">Suggest news</string>
-    <string name="who_likes">Who likes?</string>
+    <string name="who_likes">Who liked</string>
     <string name="send_to_friend">Send friend</string>
     <string name="other">Other</string>
     <string name="hide_notif_message_body_summary">Don\'t show message text in notification</string>
@@ -1307,7 +1307,7 @@
     <string name="comment_channel">Comments</string>
     <string name="friend_requests_channel">Friend requests</string>
     <string name="group_invites_channel">Group invitations</string>
-    <string name="likes_channel">I like</string>
+    <string name="likes_channel">Like this</string>
     <string name="new_posts_channel">New entries</string>
 
     <string name="api_error_900">Can\'t send message to blacklisted user</string>
@@ -1573,7 +1573,7 @@
     <string name="do_delete">Delete?</string>
     <string name="enter_link">Enter link</string>
     <string name="enter_audio_info">Edit audio</string>
-    <string name="info">Attention:</string>
+    <string name="info">Attention</string>
     <string name="what_search">What are we looking for?</string>
     <string name="search_dialogs">Dialogs</string>
     <string name="search_messages">Messages</string>
