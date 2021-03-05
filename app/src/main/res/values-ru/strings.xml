@@ -9,6 +9,7 @@
     <string-array name="array_end_list_anim_names">
         <item>Success</item>
         <item>Balls</item>
+        <item>Отсутствие анимаций</item>
     </string-array>
 
     <string-array name="array_chat_background_names">

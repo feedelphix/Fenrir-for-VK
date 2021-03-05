@@ -49,7 +49,11 @@ public class LoadMoreFooterHelper {
                 } else {
                     holder.tvEndOfList.fromRes(R.raw.end_list_balls, Utils.dp(40), Utils.dp(40), new int[]{0xffffff, CurrentTheme.getColorControlNormal(holder.bLoadMore.getContext())});
                 }
-                holder.tvEndOfList.playAnimation();
+                if(animation_id == 2) {
+                    holder.tvEndOfList.setVisibility(View.INVISIBLE);
+                } else {
+                    holder.tvEndOfList.playAnimation();
+                }
                 holder.bLoadMore.setVisibility(View.INVISIBLE);
                 holder.progress.setVisibility(View.INVISIBLE);
                 break;
