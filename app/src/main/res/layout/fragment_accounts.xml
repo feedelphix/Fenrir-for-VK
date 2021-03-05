@@ -60,7 +60,7 @@
         android:layout_marginTop="@dimen/fab_margin"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:src="@drawable/refresh"
+        android:src="@drawable/plus"
         app:elevation="3dp"
         app:fabSize="normal"
         app:maxImageSize="36dp" />
