@@ -15,6 +15,7 @@ import java.util.Locale;
 import java.util.regex.Pattern;
 
 import dev.ragnarok.fenrir.R;
+import dev.ragnarok.fenrir.settings.Settings;
 
 public class AppTextUtils {
 
@@ -27,9 +28,9 @@ public class AppTextUtils {
     private static final String POINT = ".";
     private static final String EMPTY = "";
     @SuppressLint("ConstantLocale")
-    private static final SimpleDateFormat SHORT_DATE = new SimpleDateFormat("HH:mm", Locale.getDefault());
+    private static final SimpleDateFormat SHORT_DATE = new SimpleDateFormat(Settings.get().other().checkShowSeconds(), Locale.getDefault());
     @SuppressLint("ConstantLocale")
-    private static final SimpleDateFormat FULL_DATE = new SimpleDateFormat("dd MMM yyyy HH:mm", Locale.getDefault());
+    private static final SimpleDateFormat FULL_DATE = new SimpleDateFormat(Settings.get().other().checkShowSecondsIfLongDate(), Locale.getDefault());
     @SuppressLint("ConstantLocale")
     private static final SimpleDateFormat FULL_LITTLE_DATE = new SimpleDateFormat("dd.MM.yy HH:mm", Locale.getDefault());
 

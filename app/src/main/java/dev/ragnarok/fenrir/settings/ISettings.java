@@ -183,6 +183,11 @@ public interface ISettings {
 
         boolean isShow_pagan_symbol();
 
+        boolean isShowSecondsEnabled();
+
+        String checkShowSeconds();
+        String checkShowSecondsIfLongDate();
+
         @Lang
         int getLanguage();
 

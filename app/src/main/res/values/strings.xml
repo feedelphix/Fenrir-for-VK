@@ -694,13 +694,13 @@
     <string name="community_send_request">Send request</string>
     <string name="community_join">Join the group</string>
     <string name="community_follow">Subscribe</string>
-    <string name="community_unsubscribe_from_news">Unsubscribe from news</string>
+    <string name="community_unsubscribe_from_news">Unsubscribe</string>
     <string name="community_leave">Leave the group</string>
 
     <string name="community_send_request_success">Application sent</string>
     <string name="community_join_success">You have joined a group</string>
     <string name="community_follow_success">Subscribed</string>
-    <string name="community_unsubscribe_from_news_success">You have successfully unsubscribed from news</string>
+    <string name="community_unsubscribe_from_news_success">Successfully unsubscribed</string>
     <string name="community_leave_success">You left the group</string>
 
     <string name="counter_topics">discussions</string>
@@ -737,7 +737,7 @@
     <string name="share">Share</string>
     <string name="new_comment">New comment</string>
     <string name="editing">Editing</string>
-    <string name="ready">Succes</string>
+    <string name="ready">Success</string>
     <string name="add_document_to_yourself_commit">Add to your documents?</string>
     <string name="avatar_style_title">Avatar style</string>
 
@@ -1677,4 +1677,6 @@
     <string name="artists">Artists</string>
     <string name="video_controller_to_decor">Video controller to decor view</string>
     <string name="video_swipes">Enable video swipes</string>
+
+    <string name="show_seconds">Show seconds</string>
 </resources>

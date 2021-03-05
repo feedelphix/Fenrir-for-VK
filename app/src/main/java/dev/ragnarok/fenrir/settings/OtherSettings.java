@@ -475,4 +475,25 @@ class OtherSettings implements ISettings.IOtherSettings {
     public boolean isRunes_show() {
         return PreferenceManager.getDefaultSharedPreferences(app).getBoolean("runes_show", true);
     }
+
+    public boolean isShowSecondsEnabled() {
+        return PreferenceManager.getDefaultSharedPreferences(app).getBoolean("show_seconds", false);
+    }
+
+    public String checkShowSeconds() {
+        if(Settings.get().other().isShowSecondsEnabled()) {
+            return "HH:mm:ss";
+        } else {
+            return "HH:mm";
+        }
+    }
+
+    public String checkShowSecondsIfLongDate() {
+        if(Settings.get().other().isShowSecondsEnabled()) {
+            return "dd.MM.yyyy HH:mm:ss";
+        } else {
+            return "dd.MM.yyyy HH:mm";
+        }
+    }
+
 }

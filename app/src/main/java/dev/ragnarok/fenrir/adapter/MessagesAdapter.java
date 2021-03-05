@@ -63,7 +63,7 @@ public class MessagesAdapter extends RecyclerBindableAdapter<Message, RecyclerVi
     private static final int TYPE_GRAFFITY_MY = 8;
     private static final int TYPE_GRAFFITY_FRIEND = 9;
     private static final Date DATE = new Date();
-    private final SimpleDateFormat df = new SimpleDateFormat("dd.MM.yyyy HH:mm", Locale.getDefault());
+    private SimpleDateFormat df = new SimpleDateFormat(Settings.get().other().checkShowSeconds(), Locale.getDefault());
     private final Context context;
     private final AttachmentsViewBinder attachmentsViewBinder;
     private final Transformation avatarTransformation;

@@ -1521,4 +1521,6 @@
     <string name="artists">Артисты</string>
     <string name="video_controller_to_decor">Видео кнопки в DecorView</string>
     <string name="video_swipes">Свайпы у видео</string>
+    
+    <string name="show_seconds">Показывать секунды</string>
 </resources>

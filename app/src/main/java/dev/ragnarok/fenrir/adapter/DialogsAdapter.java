@@ -38,6 +38,7 @@ import dev.ragnarok.fenrir.model.User;
 import dev.ragnarok.fenrir.model.UserPlatform;
 import dev.ragnarok.fenrir.picasso.PicassoInstance;
 import dev.ragnarok.fenrir.settings.CurrentTheme;
+import dev.ragnarok.fenrir.settings.Settings;
 import dev.ragnarok.fenrir.util.AppTextUtils;
 import dev.ragnarok.fenrir.util.Objects;
 import dev.ragnarok.fenrir.util.Utils;
@@ -56,7 +57,7 @@ public class DialogsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     private static final int DATA_TYPE_NORMAL = 0;
     private static final int DATA_TYPE_HIDDEN = 1;
     @SuppressLint("ConstantLocale")
-    private static final SimpleDateFormat DF_TODAY = new SimpleDateFormat("HH:mm", Locale.getDefault());
+    private static final SimpleDateFormat DF_TODAY = new SimpleDateFormat(Settings.get().other().checkShowSeconds(), Locale.getDefault());
     @SuppressLint("ConstantLocale")
     private static final SimpleDateFormat DF_OLD = new SimpleDateFormat("dd/MM", Locale.getDefault());
     private final Context mContext;

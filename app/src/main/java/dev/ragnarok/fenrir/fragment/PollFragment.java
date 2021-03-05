@@ -33,6 +33,7 @@ import dev.ragnarok.fenrir.mvp.core.IPresenterFactory;
 import dev.ragnarok.fenrir.mvp.presenter.PollPresenter;
 import dev.ragnarok.fenrir.mvp.view.IPollView;
 import dev.ragnarok.fenrir.picasso.PicassoInstance;
+import dev.ragnarok.fenrir.settings.Settings;
 import dev.ragnarok.fenrir.util.AssertUtils;
 import dev.ragnarok.fenrir.util.ViewUtils;
 import dev.ragnarok.fenrir.view.AspectRatioImageView;
@@ -118,7 +119,7 @@ public class PollFragment extends BaseMvpFragment<PollPresenter, IPollView>
     public void displayCreationTime(long unixtime) {
         ActionBar actionBar = ActivityUtils.supportToolbarFor(this);
         if (nonNull(actionBar)) {
-            String formattedDate = new SimpleDateFormat("dd.MM.yyyy HH:mm", Locale.getDefault())
+            String formattedDate = new SimpleDateFormat(Settings.get().other().checkShowSecondsIfLongDate(), Locale.getDefault())
                     .format(new Date(unixtime * 1000));
             actionBar.setSubtitle(formattedDate);
         }
