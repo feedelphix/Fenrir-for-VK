@@ -151,7 +151,7 @@
     </string-array>
 
     <!-- Dialogs-->
-    <string name="dialogs">Dialogs</string>
+    <string name="dialogs">Chats</string>
     <string name="dialog_day_today">Today</string>
     <string name="dialog_day_yesterday">Yesterday</string>
     <string name="dialog_day_ten_days">For 10 days</string>
@@ -219,13 +219,13 @@
 
     <string name="notif_setting_title">Notifications</string>
     <string name="messages_in_dialogs_tite">Messages in dialogs</string>
-    <string name="enable_dialogs_notif_title">Off notifications</string>
+    <string name="enable_dialogs_notif_title">Enable notifications</string>
     <string name="enable_dialogs_sound_title">Sound</string>
     <string name="enable_dialogs_vibro_title">Vibration</string>
     <string name="enable_dialogs_led_title">Light diode</string>
 
     <string name="messages_in_groupchat_tite">Messages in group chat</string>
-    <string name="enable_groupchat_notif_title">Off notifications</string>
+    <string name="enable_groupchat_notif_title">Enable notifications</string>
     <string name="enable_groupchat_sound_title">Sound</string>
     <string name="enable_groupchat_vibro_title">Vibration</string>
     <string name="enable_groupchat_led_title">Light diode</string>
@@ -480,7 +480,7 @@
     <string name="default_category_summary">Select the page that will be shown when the application starts</string>
     <string name="default_category_title">Start page</string>
 
-    <string name="drawer_feedback">Notifications</string>
+    <string name="drawer_feedback">Feedback</string>
 
     <string name="mentioned_in_post">mentioned you in the entry</string>
 
@@ -909,7 +909,6 @@
     <string name="wall_publish_notification">The post you proposed has been published</string>
     <string name="delete_chats_photo">Delete background (photo)</string>
     <string name="set_default">Reset</string>
-    <string name="sidebar_settings">Pop-up menu</string>
     <string name="custom_chat">Chats</string>
     <string name="formatted_date_today">Today at %1$s</string>
     <string name="formatted_date_tomorrow">Tomorrow at %1$s</string>
@@ -1436,7 +1435,6 @@
     <string name="recommendation">Recommendations"</string>
     <string name="biometric">Place your finger on the fingerprint reader</string>
     <string name="biometric_not_support">This function is not supported"</string>
-    <string name="show_recent_dialogs">Show recent chats</string>
     <string name="show_mini_player">Show mini player</string>
     <string name="audio_in_status">Update audio in status</string>
     <string name="audio_in_status_summary">The update happens if you open the main player</string>
@@ -1464,7 +1462,7 @@
     <string name="show_profile_in_additional_page">Show profile in popup menu</string>
     <string name="swipes_for_chats_mode">Swipes in chats</string>
     <string name="chat_users_count">%1$d participants</string>
-    <string name="display_writing">Send typing status</string>
+    <string name="display_input">Show when somebody is typing in chat</string>
     <string name="download_directory">Where to download</string>
     <string name="music_dir">Music</string>
     <string name="photo_dir">Photo</string>
@@ -1496,7 +1494,7 @@
     <string name="copy_simple">Copy</string>
     <string name="webview_night_mode">Turn on night mode WebView</string>
     <string name="snow_mode">Snow simulation</string>
-    <string name="webview_summary">Color pages depending on the topic</string>
+    <string name="webview_summary">Color pages depending on theme</string>
     <string name="be_online">Stay online</string>
     <string name="wall_attachments">Wall attachments</string>
     <string name="posts_analized">%1$d posts checked</string>
@@ -1511,7 +1509,7 @@
     <string name="notif_sticker">Sticker</string>
     <string name="notif_voice">A voice message</string>
     <string name="developer_mode">Developer mode</string>
-    <string name="dont_write">Don\'t send input status</string>
+    <string name="dont_send_input_status">Do not notify when you type</string>
     <string name="over_ten_attach">Send more than 10 attachments</string>
     <string name="open_photo">Open photo</string>
     <string name="open_avatar">Open avatar</string>
@@ -1683,7 +1681,14 @@
     <string name="extra_debug">Extra Debug</string>
     <string name="kate_gms_token">Kate GMS Token</string>
 
+    <string name="bottom_navigation_and_sidebar_settings">Bottom navigation and sidebar settings</string>
+    <string name="show_recent_chats">Show recent chats</string>
+    <string name="recent_chats_amount">Amount of recent chats</string>
+    <string name="show_bottom_menu_labels">Show bottom navigation menu labels</string>
+    <string name="show_label_only_if_selected">Show label only if selected</string>
+
     <string name="show_seconds">Show seconds</string>
     <string name="show_time_while_online">Show last online time</string>
+
     <string name="restart_required">Restart required</string>
 </resources>

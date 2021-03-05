@@ -788,7 +788,6 @@
     <string name="wall_publish_notification">Опубликована предложенная Вами запись</string>
     <string name="delete_chats_photo">Удалить фон (фото)</string>
     <string name="set_default">Сбросить</string>
-    <string name="sidebar_settings">Всплывающее меню</string>
     <string name="custom_chat">Чаты</string>
     <string name="formatted_date_today">Сегодня в %1$s</string>
     <string name="formatted_date_tomorrow">Завтра в %1$s</string>
@@ -1280,7 +1279,6 @@
     <string name="recommendation">Рекомендации"</string>
     <string name="biometric">Приложите палец к сканеру отпечатков</string>
     <string name="biometric_not_support">Данная функция не поддерживается"</string>
-    <string name="show_recent_dialogs">Отображать последние чаты</string>
     <string name="show_mini_player">Показывать мини-плеер</string>
     <string name="audio_in_status">Обновлять аудио в статусе</string>
     <string name="audio_in_status_summary">Обновление происходит, если открыть основной плеер</string>
@@ -1308,7 +1306,7 @@
     <string name="show_profile_in_additional_page">Показывать профиль в всплывающем меню</string>
     <string name="swipes_for_chats_mode">Свайпы в чатах</string>
     <string name="chat_users_count">%1$d участников</string>
-    <string name="display_writing">Показывать набор сообщения собеседником</string>
+    <string name="display_input">Показывать набор сообщения собеседником</string>
     <string name="download_directory">Куда скачивать</string>
     <string name="music_dir">Музыка</string>
     <string name="photo_dir">Фото</string>
@@ -1355,7 +1353,7 @@
     <string name="notif_sticker">Стикер</string>
     <string name="notif_voice">Голосовое сообщение</string>
     <string name="developer_mode">Режим разработчика</string>
-    <string name="dont_write">Не посылать статус написания</string>
+    <string name="dont_send_input_status">Не посылать статус написания</string>
     <string name="over_ten_attach">Отправлять больше 10 вложений</string>
     <string name="open_photo">Открыть фото</string>
     <string name="open_avatar">Открыть аватар</string>
@@ -1524,6 +1522,12 @@
     <string name="video_swipes">Свайпы у видео</string>
     <string name="extra_debug">Расширенная отладка</string>
     <string name="kate_gms_token">Kate GMS Токен</string>
+
+    <string name="bottom_navigation_and_sidebar_settings">Настройки нижнего и всплывающего меню</string>
+    <string name="show_recent_chats">Отображать последние чаты</string>
+    <string name="recent_chats_amount">Количество последних чатов</string>
+    <string name="show_bottom_menu_labels">Показывать подписи в нижнем меню</string>
+    <string name="show_label_only_if_selected">Показывать подпись только у выбранного раздела</string>
 
     <string name="show_seconds">Показывать секунды</string>
     <string name="show_time_while_online">Показывать последнее время онлайн</string>

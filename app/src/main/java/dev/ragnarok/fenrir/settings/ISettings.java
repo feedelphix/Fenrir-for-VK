@@ -470,6 +470,10 @@ public interface ISettings {
 
         boolean isShow_profile_in_additional_page();
 
+        int getMaxRecentChatsAmount();
+
+        int showLabelsOnBottomMenu();
+
         @SwipesChatMode
         int getSwipes_chat_mode();
 

@@ -343,8 +343,8 @@
         <SwitchPreference
             android:defaultValue="false"
             android:key="dont_write"
-            android:title="@string/dont_write"
-            app:icon="@drawable/pencil_settings"
+            android:title="@string/dont_send_input_status"
+            app:icon="@drawable/pencil"
             app:iconSpaceReserved="false" />
 
         <SwitchPreference
@@ -498,13 +498,15 @@
             android:key="disable_sensored_voice"
             android:summary="@string/disable_sensored_voice_summary"
             android:title="@string/disable_sensored_voice"
+            app:icon="@drawable/voice"
             app:allowDividerAbove="true"
             app:iconSpaceReserved="false" />
 
         <SwitchPreference
             android:defaultValue="true"
             android:key="display_writing"
-            android:title="@string/display_writing"
+            android:title="@string/display_input"
+            app:icon="@drawable/pencil"
             app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
@@ -670,17 +672,10 @@
             android:title="@string/is_player_support_volume"
             app:iconSpaceReserved="false" />
 
-        <SwitchPreference
-            android:defaultValue="true"
-            android:key="show_profile_in_additional_page"
-            android:title="@string/show_profile_in_additional_page"
-            app:icon="@drawable/account_circle"
-            app:iconSpaceReserved="false" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/sidebar_settings"
+        android:title="@string/bottom_navigation_and_sidebar_settings"
         app:iconSpaceReserved="false">
 
         <Preference
@@ -691,11 +686,39 @@
             app:iconSpaceReserved="false" />
 
         <SwitchPreference
+            android:defaultValue="false"
+            android:key="show_bottom_menu_labels"
+            android:title="@string/show_bottom_menu_labels"
+            app:icon="@drawable/ic_profile_status"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="show_label_only_when_selected"
+            android:title="@string/show_label_only_if_selected"
+            app:icon="@drawable/ic_profile_status"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_profile_in_additional_page"
+            android:title="@string/show_profile_in_additional_page"
+            app:icon="@drawable/account_circle"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
             android:defaultValue="true"
             android:key="show_recent_dialogs"
-            android:title="@string/show_recent_dialogs"
+            android:title="@string/show_recent_chats"
             app:icon="@drawable/friends_settings"
             app:iconSpaceReserved="false" />
+
+        <EditTextPreference
+            android:defaultValue="4"
+            android:key="recent_chats_amount"
+            android:title="@string/recent_chats_amount"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
 

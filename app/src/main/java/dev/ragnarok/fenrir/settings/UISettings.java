@@ -245,4 +245,25 @@ class UISettings implements ISettings.IUISettings {
     public boolean isDisplay_writing() {
         return PreferenceManager.getDefaultSharedPreferences(app).getBoolean("display_writing", true);
     }
+
+    public int getMaxRecentChatsAmount() {
+        try {
+            return Integer.parseInt(PreferenceManager.getDefaultSharedPreferences(app).getString("recent_chats_amount", "4").trim());
+        } catch (Exception e) {
+            return 4;
+        }
+    }
+
+    public int showLabelsOnBottomMenu() {
+        if(PreferenceManager.getDefaultSharedPreferences(app).getBoolean("show_bottom_menu_labels", false)) {
+            if(PreferenceManager.getDefaultSharedPreferences(app).getBoolean("show_label_only_when_selected", false)) {
+                return 0;
+            } else {
+                return 1;
+            }
+        } else {
+            return 2;
+        }
+    }
+
 }

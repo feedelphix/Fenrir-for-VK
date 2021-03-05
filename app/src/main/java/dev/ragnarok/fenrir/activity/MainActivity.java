@@ -325,6 +325,7 @@ public class MainActivity extends AppCompatActivity implements AdditionalNavigat
         setStatusbarColored(true, Settings.get().ui().isDarkModeEnabled(this));
 
         mBottomNavigation = findViewById(R.id.bottom_navigation_menu);
+        mBottomNavigation.setLabelVisibilityMode(Settings.get().ui().showLabelsOnBottomMenu());
         mBottomNavigation.setOnNavigationItemSelectedListener(this);
 
         mBottomNavigationContainer = findViewById(R.id.bottom_navigation_menu_container);

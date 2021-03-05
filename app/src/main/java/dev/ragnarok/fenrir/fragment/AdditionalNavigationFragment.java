@@ -88,7 +88,7 @@ public class AdditionalNavigationFragment extends BaseFragment implements MenuLi
     public static final SectionMenuItem SECTION_ITEM_SETTINGS = new IconMenuItem(PAGE_PREFERENSES, R.drawable.settings, R.string.settings);
     public static final SectionMenuItem SECTION_ITEM_ACCOUNTS = new IconMenuItem(PAGE_ACCOUNTS, R.drawable.account_circle, R.string.accounts);
 
-    private static final int MAX_RECENT_COUNT = 5;
+    private int MAX_RECENT_COUNT = Settings.get().ui().getMaxRecentChatsAmount();
     private final CompositeDisposable mCompositeDisposable = new CompositeDisposable();
     private NavigationDrawerCallbacks mCallbacks;
     private BottomSheetBehavior<View> mBottomSheetBehavior;
@@ -293,7 +293,7 @@ public class AdditionalNavigationFragment extends BaseFragment implements MenuLi
 
             mRecentChats.set(index, recentChat);
         } else {
-            if (mRecentChats.size() >= MAX_RECENT_COUNT) {
+            while (mRecentChats.size() >= MAX_RECENT_COUNT) {
                 mRecentChats.remove(mRecentChats.size() - 1);
             }
 
@@ -383,7 +383,7 @@ public class AdditionalNavigationFragment extends BaseFragment implements MenuLi
     }
 
     private void backupRecentChats() {
-        List<RecentChat> chats = new ArrayList<>(5);
+        List<RecentChat> chats = new ArrayList<>(12);
         for (AbsMenuItem item : mDrawerItems) {
             if (item instanceof RecentChat) {
                 chats.add((RecentChat) item);

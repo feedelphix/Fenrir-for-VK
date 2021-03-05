@@ -369,6 +369,18 @@ public class PreferencesFragment extends PreferenceFragmentCompat {
             return true;
         });
 
+        SwitchPreference show_bottom_menu_labels = findPreference("show_bottom_menu_labels");
+        show_bottom_menu_labels.setOnPreferenceChangeListener((preference, newValue) -> {
+            requireActivity().recreate();
+            return true;
+        });
+
+        SwitchPreference show_label_only_when_selected = findPreference("show_label_only_when_selected");
+        show_label_only_when_selected.setOnPreferenceChangeListener((preference, newValue) -> {
+            requireActivity().recreate();
+            return true;
+        });
+
         ListPreference prefPhotoPreview = findPreference("photo_preview_size");
         prefPhotoPreview.setOnPreferenceChangeListener((preference, newValue) -> {
             Settings.get().main().notifyPrefPreviewSizeChanged();
