@@ -1680,6 +1680,7 @@
     <string name="video_swipes">Enable video swipes</string>
     <string name="extra_debug">Extra Debug</string>
     <string name="kate_gms_token">Kate GMS Token</string>
+    <string name="enable_native_libs">Enable native libs</string>
 
     <string name="bottom_navigation_and_sidebar_settings">Bottom navigation and sidebar settings</string>
     <string name="show_recent_chats">Show recent chats</string>
@@ -1691,4 +1692,5 @@
     <string name="show_time_while_online">Show last online time</string>
 
     <string name="restart_required">Restart required</string>
+
 </resources>

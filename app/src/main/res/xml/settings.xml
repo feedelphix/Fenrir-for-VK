@@ -839,7 +839,7 @@
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
-            android:defaultValue="@string/kate_receipt_gms_token"
+            android:defaultValue="@string/kate_gms_token"
             android:key="kate_gms_token"
             android:title="@string/kate_gms_token"
             app:icon="@drawable/kate_settings"
@@ -863,6 +863,13 @@
             app:icon="@drawable/dir_photo"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="enable_native_libs"
+            android:summary="@string/restart_required"
+            android:title="@string/enable_native_libs"
+            app:iconSpaceReserved="false" />
 
         <SwitchPreference
             android:key="use_old_vk_api"
