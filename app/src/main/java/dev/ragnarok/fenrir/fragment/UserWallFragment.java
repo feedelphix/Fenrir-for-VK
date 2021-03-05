@@ -129,7 +129,7 @@ public class UserWallFragment extends AbsWallFragment<IUserWallView, UserWallPre
 
         mHeaderHolder.tvName.setText(user.getFullName());
         mHeaderHolder.tvName.setTextColor(Utils.getVerifiedColor(requireActivity(), user.isVerified()));
-        mHeaderHolder.tvLastSeen.setText(UserInfoResolveUtil.getUserActivityLine(getContext(), user, true));
+        mHeaderHolder.tvLastSeen.setText(UserInfoResolveUtil.getUserActivityLine(getContext(), user, false));
 
         if (!user.getCanWritePrivateMessage())
             mHeaderHolder.fabMessage.setImageResource(R.drawable.close);

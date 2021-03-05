@@ -75,9 +75,16 @@
             android:defaultValue="false"
             android:key="show_seconds"
             android:title="@string/show_seconds"
+            android:summary="@string/restart_required"
             app:icon="@drawable/seconds_settings"
-            app:iconSpaceReserved="false"
-            />
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="show_last_online_time"
+            android:title="@string/show_time_while_online"
+            android:icon="@drawable/seconds_settings"
+            app:iconSpaceReserved="false" />
 
         <SwitchPreference
             android:defaultValue="false"

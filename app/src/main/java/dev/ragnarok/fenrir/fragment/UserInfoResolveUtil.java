@@ -5,6 +5,7 @@ import android.content.Context;
 import dev.ragnarok.fenrir.R;
 import dev.ragnarok.fenrir.api.model.VKApiUser;
 import dev.ragnarok.fenrir.model.User;
+import dev.ragnarok.fenrir.settings.Settings;
 import dev.ragnarok.fenrir.util.AppTextUtils;
 
 public class UserInfoResolveUtil {
@@ -568,12 +569,20 @@ public class UserInfoResolveUtil {
         }
 
         String activityText;
-        if (online)
+        String activityTime = AppTextUtils.getDateFromUnixTimeShorted(context, lastSeen);
+        if (online) {
             activityText = context.getString(R.string.online);
-        else
+            if (Settings.get().other().isShowLastOnlineTimeEnabled()) {
+                if (sex == VKApiUser.SEX_MAN) {
+                    activityText += ", " + context.getString(R.string.last_seen_sex_man, activityTime);
+                } else if (sex == VKApiUser.SEX_WOMAN) {
+                    activityText += ", " + context.getString(R.string.last_seen_sex_woman, activityTime);
+                } else {
+                    activityText += ", " + context.getString(R.string.last_seen_sex_unknown, activityTime);
+                }
+            }
+        } else {
             activityText = context.getString(R.string.offline);
-        if (!online || force_last_seen) {
-            String activityTime = AppTextUtils.getDateFromUnixTimeShorted(context, lastSeen);
             if (sex == VKApiUser.SEX_MAN) {
                 activityText += ", " + context.getString(R.string.last_seen_sex_man, activityTime);
             } else if (sex == VKApiUser.SEX_WOMAN) {

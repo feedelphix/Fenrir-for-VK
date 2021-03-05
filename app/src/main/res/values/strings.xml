@@ -1682,4 +1682,6 @@
     <string name="kate_gms_token">Kate GMS Token</string>
 
     <string name="show_seconds">Show seconds</string>
+    <string name="show_time_while_online">Show last online time</string>
+    <string name="restart_required">Restart required</string>
 </resources>

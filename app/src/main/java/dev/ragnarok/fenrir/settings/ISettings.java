@@ -190,6 +190,8 @@ public interface ISettings {
         String checkShowSeconds();
         String checkShowSecondsIfLongDate();
 
+        boolean isShowLastOnlineTimeEnabled();
+
         @NonNull
         String getKateGMSToken();
 

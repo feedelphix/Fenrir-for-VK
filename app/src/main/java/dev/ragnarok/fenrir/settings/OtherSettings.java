@@ -513,4 +513,8 @@ class OtherSettings implements ISettings.IOtherSettings {
         }
     }
 
+    public boolean isShowLastOnlineTimeEnabled() {
+        return PreferenceManager.getDefaultSharedPreferences(app).getBoolean("show_last_online_time", false);
+    }
+
 }

@@ -1525,4 +1525,6 @@
     <string name="kate_gms_token">Kate GMS Токен</string>
 
     <string name="show_seconds">Показывать секунды</string>
+    <string name="show_time_while_online">Показывать последнее время онлайн</string>
+    <string name="restart_required">Требуется перезапуск</string>
 </resources>
