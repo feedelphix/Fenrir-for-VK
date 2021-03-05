@@ -63,6 +63,8 @@ public interface ISettings {
 
         boolean isNative_parcel();
 
+        boolean isExtra_debug();
+
         boolean isUse_coil();
 
         String get_Api_Domain();
@@ -187,6 +189,9 @@ public interface ISettings {
 
         String checkShowSeconds();
         String checkShowSecondsIfLongDate();
+
+        @NonNull
+        String getKateGMSToken();
 
         @Lang
         int getLanguage();
