@@ -351,11 +351,11 @@
     <string name="behaviour_settings">Behavior</string>
     <string name="music_settings">Player and music</string>
 
-    <string name="wall_post">Writing on the wall</string>
+    <string name="wall_post">Post on the wall</string>
 
-    <string name="wall_post_view">(WRITING ON THE WALL)</string>
+    <string name="wall_post_view">(POSTING ON THE WALL)</string>
 
-    <string name="repost_title">Sending writing</string>
+    <string name="repost_title">Send post</string>
     <string name="repost_send_message">Send by private message</string>
     <string name="repost_to_wall">On wall</string>
     <string name="pin">Anchor</string>
@@ -371,7 +371,7 @@
 
     <string name="waiting_for_upload">Waiting for download</string>
 
-    <string name="deleted_post">Writing delete</string>
+    <string name="deleted_post">Delete post</string>
     <string name="comment_was_deleted">Comment delete</string>
 
     <string name="unknown_error">Unknown error</string>
@@ -927,7 +927,7 @@
     <string name="cancelling">Cancel</string>
     <string name="set_as_active">Make active</string>
     <string name="account_switched_to">Current account</string>
-    <string name="peer_notification_settings">Settings notifications</string>
+    <string name="peer_notification_settings">Notifications\' settings</string>
     <string name="wall_post_is_not_yet_initialized">Post information has not been received yet, please wait</string>
     <string name="post_is_pinned">Pinned post</string>
     <string name="will_be_posted_at">Will be published %1$s</string>
@@ -1229,7 +1229,7 @@
     <string name="community_moderator">Moderator</string>
     <string name="community_moderator_desc">Can delete user-added content, manage community blacklist</string>
     <string name="community_editor">Editor</string>
-    <string name="community_editor_desc">Can write on behalf of the community, add, delete and edit content, update the main photo</string>
+    <string name="community_editor_desc">Can post on behalf of the community, add, delete and edit content, update the main photo</string>
     <string name="community_administrator">Administrator</string>
     <string name="community_administrator_desc">Can appoint and remove administrators, change community name and address</string>
     <string name="community_manager_show_in_contacts">Show in contact block</string>
