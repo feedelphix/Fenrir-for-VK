@@ -43,7 +43,7 @@
         <Preference
             android:key="notifications"
             android:title="@string/notif_setting_title"
-            app:icon="@drawable/read_toast"
+            app:icon="@drawable/feed"
             app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
@@ -91,7 +91,7 @@
             android:key="load_history_notif"
             android:summary="@string/load_history_notif_summary"
             android:title="@string/load_history_notif"
-            app:icon="@drawable/read_toast"
+            app:icon="@drawable/feed"
             app:iconSpaceReserved="false" />
 
         <SwitchPreference
@@ -280,7 +280,7 @@
             android:entryValues="@array/array_photo_rounded_items"
             android:key="photo_rounded_view"
             android:title="@string/photo_rounded_view"
-            app:icon="@drawable/dir_photo"
+            app:icon="@drawable/rounded_image_settings"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
 
@@ -550,7 +550,7 @@
             android:defaultValue="true"
             android:key="info_reading"
             android:title="@string/info_reading"
-            app:icon="@drawable/read_toast"
+            app:icon="@drawable/feed"
             app:iconSpaceReserved="false" />
 
         <SwitchPreference
@@ -767,8 +767,7 @@
         android:icon="@drawable/valknut_settings"
         android:key="wall_themed"
         android:title="@string/wall_themed"
-        app:iconSpaceReserved="false"
-        app:initialExpandedChildrenCount="2">
+        app:iconSpaceReserved="false">
         <SwitchPreference
             android:defaultValue="false"
             android:key="runes_show"

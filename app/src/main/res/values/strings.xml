@@ -1071,7 +1071,7 @@
     <string name="select">Choose answer option</string>
     <string name="votes_count">%1$d of votes</string>
 
-    <string name="like_title">I like</string>
+    <string name="like_title">Liked</string>
     <string name="likes">Marks \"I like\"</string>
     <string name="likes_posts">Liked</string>
     <string name="chat_background">Background</string>
