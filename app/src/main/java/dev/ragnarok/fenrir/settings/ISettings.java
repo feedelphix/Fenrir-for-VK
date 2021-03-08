@@ -197,6 +197,10 @@ public interface ISettings {
         @NonNull
         String getKateGMSToken();
 
+        int getMusicLifecycle();
+
+        int getFFmpegPlugin();
+
         @Lang
         int getLanguage();
 

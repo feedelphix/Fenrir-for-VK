@@ -20,6 +20,20 @@
         <item>Свой…</item>
     </string-array>
 
+    <string-array name="array_lifecycle_names">
+        <item>1 мин.</item>
+        <item>2 мин.</item>
+        <item>5 мин.</item>
+        <item>10 мин.</item>
+        <item>15 мин.</item>
+    </string-array>
+
+    <string-array name="array_ffmpeg_names">
+        <item>Выключен</item>
+        <item>Включен</item>
+        <item>Первостепенный</item>
+    </string-array>
+
     <string-array name="array_photo_rounded_names">
         <item>Всегда скруглять</item>
         <item>Скруглять, если одно фото</item>
@@ -1483,7 +1497,7 @@
     <string name="photo_with_user">Фото с пользователем</string>
     <string name="detect_qr">Распознать QR</string>
     <string name="show_photos_line">Показывать трекбар с фотками</string>
-    <string name="native_parcel">Нативный Parcel</string>
+    <string name="native_parcel_enable">Нативный Parcel</string>
     <string name="native_parcel_summary">Если вылетает при открытии фото</string>
     <string name="disable_likes">Отключить лайки (фото, стена)</string>
     <string name="date_start">Дата от:</string>
@@ -1494,7 +1508,6 @@
     <string name="old_track">Старый</string>
     <string name="new_track">Новый</string>
     <string name="dual_track">Оба</string>
-    <string name="parcel_native_helper">Если при открытии фото будет вылет, включите пункт Нативный Parcel</string>
     <string name="runic">Руны</string>
     <string name="local_media_server">Локальный медиа сервер</string>
     <string name="enabled">Включен</string>
@@ -1522,17 +1535,20 @@
     <string name="video_swipes">Свайпы у видео</string>
     <string name="extra_debug">Расширенная отладка</string>
     <string name="kate_gms_token">Kate GMS Токен</string>
-    <string name="enable_native_libs">Нативные библиотеки</string>
+    <string name="enable_native_libs">Использовать нативные библиотеки</string>
 
-    <string name="bottom_navigation_and_sidebar_settings">Настройки нижнего и всплывающего меню</string>
-    <string name="show_recent_chats">Отображать последние чаты</string>
-    <string name="recent_chats_amount">Количество последних чатов</string>
-    <string name="show_bottom_menu_labels">Показывать подписи в нижнем меню</string>
-    <string name="show_label_only_if_selected">Показывать подпись только у выбранного раздела</string>
+    <string name="lifecycle_music_service">Время жизни плеера (сек.)</string>
+    <string name="ffmpeg_audio_codecs">FFmpeg аудио кодеки</string>
+
+    <string name="bottom_navigation_and_sidebar_settings">Bottom navigation and sidebar settings</string>
+    <string name="show_recent_chats">Показывать недавние чаты</string>
+    <string name="recent_chats_amount">Количество недавних чатов</string>
+    <string name="show_bottom_menu_labels">Показывать подписи в нижнем нав. меню</string>
+    <string name="show_label_only_if_selected">Показывать подпись только если выбран раздел</string>
 
     <string name="show_seconds">Показывать секунды</string>
-    <string name="show_time_while_online">Показывать последнее время онлайн</string>
+    <string name="show_time_while_online">Показывать последнее время онлайна</string>
 
-    <string name="restart_required">Требуется перезапуск</string>
+    <string name="restart_required">Необходима перезагрузка</string>
 
 </resources>
